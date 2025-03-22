@@ -35,9 +35,9 @@ Les blocs résiduels combinent des convolutions masquées, des activations non l
    - *Bloc Résiduel :* Intègre des convolutions masquées et des activations non linéaires, tout en ajoutant une connexion directe pour faciliter l’apprentissage.
 3. **Assemblage du Modèle**  
    Construction du réseau par empilement séquentiel des couches définies précédemment, offrant une structure modulaire et facilement modifiable.
-4. **Entraînement du Réseau**  
-   Utilisation de l’algorithme Adam pour optimiser les paramètres et une fonction de perte basée sur l’entropie croisée, mesurant l’écart entre la distribution prédite et la valeur réelle des pixels. La boucle d’entraînement ajuste progressivement les poids à travers des lots d’images.
-
+4. **Entraînement du modèle**  
+   Utilisation de l’algorithme <b>Adam<b> pour optimiser les paramètres et une fonction de perte <b>CrossEntropy<b>.
+   
 ## Génération et Visualisation des Images
 
 ### Processus de Génération
