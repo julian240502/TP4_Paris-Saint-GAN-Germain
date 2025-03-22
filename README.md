@@ -53,9 +53,3 @@ Les images générées, une fois normalisées, sont affichées à l’aide de bi
 
 ## Conclusion
 Ce projet démontre l’efficacité des modèles autoregressifs pour la génération d’images. La combinaison de convolutions masquées et de blocs résiduels permet de modéliser rigoureusement la dépendance entre pixels. Malgré une résolution réduite et une quantification limitée, le modèle parvient à produire des images cohérentes par rapport aux données d’entraînement.
-
-## Perspectives
-Des améliorations futures pourraient porter sur :
-- L’ajustement du paramètre de température pour trouver le meilleur compromis entre créativité et précision.
-- L’exploration d’autres stratégies de quantification ou l’extension du modèle à des images de résolution supérieure.
-- L’intégration de mécanismes de régularisation pour optimiser la généralisation du modèle.
