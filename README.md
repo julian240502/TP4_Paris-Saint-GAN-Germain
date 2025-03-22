@@ -36,7 +36,7 @@ Les blocs résiduels combinent des convolutions masquées, des activations non l
 3. **Assemblage du Modèle**  
    Construction du réseau par empilement séquentiel des couches définies précédemment, offrant une structure modulaire et facilement modifiable.
 4. **Entraînement du modèle**  
-   Utilisation de l’algorithme <b>Adam<b> pour optimiser les paramètres et une fonction de perte <b>CrossEntropy<b>.
+   Utilisation de l’algorithme <b>Adam</b> pour optimiser les paramètres et une fonction de perte <b>CrossEntropy</b> .
    
 ## Génération et Visualisation des Images
 
